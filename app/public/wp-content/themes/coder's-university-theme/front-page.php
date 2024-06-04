@@ -26,10 +26,12 @@
                 'order' => 'ASC',
 
                 'meta_query' => array(
-                    'key' => 'event_date',
-                    'compare' => '>=',
-                    'value' => $today,
-                    'type' => 'numeric'
+                    array(
+                        'key' => 'event_date',
+                        'compare' => '>=',
+                        'value' => $today,
+                        'type' => 'numeric'
+                    )   
                 )
             ));
 
