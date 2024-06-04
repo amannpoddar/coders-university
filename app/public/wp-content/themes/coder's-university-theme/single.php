@@ -23,7 +23,6 @@ while (have_posts()) {
                 <span class="metabox__main">Posted by <?php the_author_posts_link()?> on <?php the_time('n-j-y')?> in <?php echo get_the_category_list(', '); ?></span>
             </p>
         </div>
-
         <div class="generic-content"> <?php the_content(); ?> </div>
     </div>
 
