@@ -17,7 +17,16 @@ while (have_posts()) {
 
         
 
-        <div class="generic-content"> <?php the_content(); ?> </div>
+        <div class="generic-content">
+            <div class="row group">
+                <div class="one-third">
+                    <?php the_post_thumbnail('professorPortrait'); ?>
+                </div>
+                <div class="two-third">
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </div>
 
         <?php
 
