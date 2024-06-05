@@ -1,12 +1,11 @@
 <?php get_header(); ?>
 <div class="page-banner">
     <div class="page-banner__bg-image"
-        style="background-image: url(<?php echo get_theme_file_uri('images/library-hero.jpg') ?>)"></div>
+        style="background-image: url(<?php echo get_theme_file_uri('images/front_banner.jpg') ?>)"></div>
     <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large">Welcome!</h1>
-        <h2 class="headline headline--medium">We think you&rsquo;ll like it here.</h2>
-        <h3 class="headline headline--small">Why don&rsquo;t you check out the <strong>major</strong> you&rsquo;re
-            interested in?</h3>
+        <h2 class="headline headline--medium">Embark on a journey of academic excellence and personal growth.</h2>
+        <h3 class="headline headline--small">Explore our cutting-edge <strong> programs </strong> tailored to equip you with the skills for tomorrow's challenges.</h3>
         <a href="<?php echo get_post_type_archive_link('program'); ?>" class="btn btn--large btn--blue">Find Your Major</a>
     </div>
 </div>
@@ -112,11 +111,11 @@
                 </div>
             </div>
             <div class="hero-slider__slide"
-                style="background-image: url(<?php echo get_theme_file_uri('images/apples.jpg') ?>)">
+                style="background-image: url(<?php echo get_theme_file_uri('images/computer_labs.jpg') ?>)">
                 <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-                        <p class="t-center">Our dentistry program recommends eating apples.</p>
+                        <h2 class="headline headline--medium t-center">Computer Labs</h2>
+                        <p class="t-center">Offering up-to-date hardware and software, with free access to the internet.</p>
                         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
                     </div>
                 </div>
