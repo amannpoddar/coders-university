@@ -90,8 +90,8 @@ while (have_posts()) {
                 $homepageEvents->the_post();
                 get_template_part('template-parts/content-event');
             }
-            wp_reset_postdata();
         }
+        wp_reset_postdata();
         ?>
     </div>
 
